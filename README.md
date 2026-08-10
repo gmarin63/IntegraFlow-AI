@@ -1,9 +1,5 @@
 # IntegraFlow AI 🤖
 
-<p align="center">
-  <img src="./assets/integraflow-ai-logo-sharp.svg" alt="IntegraFlow AI" width="700">
-</p>
-
 > Plataforma web inteligente para la **automatización e integración de procesos empresariales mediante Inteligencia Artificial**.
 
 ## 🎯 Descripción
