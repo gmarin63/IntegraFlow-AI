@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f6f7fb"/>
+<rect x="430" y="120" width="740" height="750" rx="28" fill="#fff" stroke="#dcdced" stroke-width="3"/>
+<text x="800" y="205" text-anchor="middle" font-family="Arial" font-size="42" font-weight="700" fill="#202040">IntegraFlow AI</text>
+<text x="800" y="265" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700" fill="#373750">Bienvenido de nuevo</text>
+<text x="800" y="305" text-anchor="middle" font-family="Arial" font-size="20" fill="#666680">Inicia sesión para continuar</text>
+<text x="550" y="390" font-family="Arial" font-size="21" font-weight="700" fill="#373750">Correo electrónico</text>
+<rect x="550" y="420" width="500" height="60" rx="10" fill="#f8f8fc" stroke="#cdcdE1" stroke-width="2"/>
+<text x="570" y="458" font-family="Arial" font-size="20" fill="#88889a">usuario@empresa.com</text>
+<text x="550" y="530" font-family="Arial" font-size="21" font-weight="700" fill="#373750">Contraseña</text>
+<rect x="550" y="560" width="500" height="60" rx="10" fill="#f8f8fc" stroke="#cdcdE1" stroke-width="2"/>
+<text x="570" y="598" font-family="Arial" font-size="20" fill="#88889a">••••••••••</text>
+<text x="820" y="660" font-family="Arial" font-size="18" fill="#5546d8">¿Olvidaste tu contraseña?</text>
+<rect x="550" y="710" width="500" height="70" rx="12" fill="#5546d8"/>
+<text x="800" y="755" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#fff">Iniciar sesión</text>
+<text x="800" y="830" text-anchor="middle" font-family="Arial" font-size="18" fill="#77778a">Acceso seguro según rol y permisos</text>
+</svg>
