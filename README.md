@@ -16,26 +16,11 @@ IntegraFlow AI propone una plataforma centralizada para integrar estos procesos 
 
 ## 🏗️ Arquitectura conceptual
 
-```text
-USUARIOS
-    │
-    ▼
-Plataforma Web IntegraFlow AI
-    │
-    ├── CRM
-    ├── RRHH
-    ├── Contabilidad
-    └── Documentos
-            │
-            ▼
-    Motor IA + Automatización
-            │
-       ┌────┼────┐
-       ▼    ▼    ▼
-     Gmail DIAN WhatsApp
-```
+![Arquitectura conceptual de IntegraFlow AI](docs/arquitectura/arquitectura-conceptual.svg)
 
-Las integraciones externas representan componentes previstos de la solución y se implementarán progresivamente.
+**Arquitectura conceptual de IntegraFlow AI.** La solución integra usuarios, módulos empresariales, un motor de IA y automatización, y servicios externos. Las integraciones externas representan componentes previstos de la solución y se implementarán progresivamente.
+
+[Ver la arquitectura en tamaño completo](docs/arquitectura/README.md)
 
 ## 🚀 Módulos principales
 
