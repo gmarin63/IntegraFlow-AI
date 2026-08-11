@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#f6f7fb"/>
+<rect width="1600" height="80" fill="#202040"/><text x="30" y="50" font-family="Arial" font-size="28" font-weight="700" fill="#fff">IntegraFlow AI</text>
+<rect width="250" height="1000" y="80" fill="#292957"/>
+<g font-family="Arial" font-size="20" fill="#ebebf5"><text x="30" y="125">Dashboard</text><text x="30" y="187">CRM</text><text x="30" y="249">RRHH</text><text x="30" y="311">Contabilidad</text><text x="30" y="373">Documentos</text><text x="30" y="435">Automatizaciones</text></g>
+<text x="290" y="145" font-family="Arial" font-size="38" font-weight="700" fill="#202040">Gestión de clientes</text>
+<rect x="300" y="180" width="1210" height="75" rx="10" fill="#fff" stroke="#dcdced" stroke-width="2"/><text x="325" y="225" font-family="Arial" font-size="20" fill="#88889a">Buscar cliente...</text>
+<rect x="1250" y="190" width="230" height="55" rx="10" fill="#178b5a"/><text x="1365" y="226" text-anchor="middle" font-family="Arial" font-size="18" font-weight="700" fill="#fff">+ Nuevo cliente</text>
+<g font-family="Arial" font-size="20" font-weight="700" fill="#33334f"><text x="315" y="310">Cliente</text><text x="620" y="310">Identificación</text><text x="900" y="310">Correo</text><text x="1190" y="310">Estado</text><text x="1330" y="310">Acciones</text></g>
+<g font-family="Arial" font-size="18" fill="#46465f"><rect x="300" y="335" width="1210" height="65" rx="8" fill="#fff" stroke="#e1e1ee"/><text x="315" y="375">Empresa ABC</text><text x="620" y="375">900123456</text><text x="900" y="375">contacto@abc.com</text><text x="1190" y="375" fill="#178b5a">Activo</text><text x="1330" y="375" fill="#178b5a">Ver / Editar</text>
+<rect x="300" y="413" width="1210" height="65" rx="8" fill="#fff" stroke="#e1e1ee"/><text x="315" y="453">Empresa XYZ</text><text x="620" y="453">901456789</text><text x="900" y="453">info@xyz.com</text><text x="1190" y="453" fill="#178b5a">Activo</text><text x="1330" y="453" fill="#178b5a">Ver / Editar</text>
+<rect x="300" y="491" width="1210" height="65" rx="8" fill="#fff" stroke="#e1e1ee"/><text x="315" y="531">Comercial 123</text><text x="620" y="531">800123456</text><text x="900" y="531">ventas@comercial.com</text><text x="1190" y="531" fill="#c33">Inactivo</text><text x="1330" y="531" fill="#178b5a">Ver / Editar</text>
+<rect x="300" y="569" width="1210" height="65" rx="8" fill="#fff" stroke="#e1e1ee"/><text x="315" y="609">Soluciones SA</text><text x="620" y="609">900806543</text><text x="900" y="609">hola@soluciones.com</text><text x="1190" y="609" fill="#178b5a">Activo</text><text x="1330" y="609" fill="#178b5a">Ver / Editar</text></g>
+</svg>
