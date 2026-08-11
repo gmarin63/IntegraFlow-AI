@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f5f7fa"/>
+  <rect x="40" y="30" width="1120" height="660" rx="18" fill="white" stroke="#d0d7de"/>
+  <text x="80" y="85" font-family="Arial, sans-serif" font-size="30" font-weight="700">IntegraFlow AI — Gestión documental</text>
+  <text x="80" y="120" font-family="Arial, sans-serif" font-size="16" fill="#57606a">Prototipo conceptual — HU-04</text>
+  <rect x="80" y="155" width="1040" height="55" rx="8" fill="#eef2f6"/>
+  <text x="105" y="190" font-family="Arial, sans-serif" font-size="17">Buscar documento...</text>
+  <rect x="930" y="165" width="190" height="36" rx="7" fill="#1f6feb"/>
+  <text x="975" y="189" font-family="Arial, sans-serif" font-size="15" fill="white">+ Cargar documento</text>
+  <rect x="80" y="240" width="1040" height="385" rx="10" fill="white" stroke="#d8dee4"/>
+  <text x="110" y="280" font-family="Arial, sans-serif" font-size="18" font-weight="700">Documentos</text>
+  <line x1="110" y1="300" x2="1090" y2="300" stroke="#d8dee4"/>
+  <text x="110" y="335" font-family="Arial, sans-serif" font-size="15" font-weight="700">Nombre</text>
+  <text x="500" y="335" font-family="Arial, sans-serif" font-size="15" font-weight="700">Categoría</text>
+  <text x="720" y="335" font-family="Arial, sans-serif" font-size="15" font-weight="700">Fecha</text>
+  <text x="900" y="335" font-family="Arial, sans-serif" font-size="15" font-weight="700">Acciones</text>
+  <line x1="110" y1="350" x2="1090" y2="350" stroke="#d8dee4"/>
+  <text x="110" y="390" font-family="Arial, sans-serif" font-size="15">Factura_001.pdf</text>
+  <text x="500" y="390" font-family="Arial, sans-serif" font-size="15">Contabilidad</text>
+  <text x="720" y="390" font-family="Arial, sans-serif" font-size="15">11/08/2026</text>
+  <text x="900" y="390" font-family="Arial, sans-serif" font-size="15" fill="#1f6feb">Ver | Descargar</text>
+  <line x1="110" y1="410" x2="1090" y2="410" stroke="#d8dee4"/>
+  <text x="110" y="450" font-family="Arial, sans-serif" font-size="15">Contrato_cliente.pdf</text>
+  <text x="500" y="450" font-family="Arial, sans-serif" font-size="15">Clientes</text>
+  <text x="720" y="450" font-family="Arial, sans-serif" font-size="15">10/08/2026</text>
+  <text x="900" y="450" font-family="Arial, sans-serif" font-size="15" fill="#1f6feb">Ver | Descargar</text>
+  <line x1="110" y1="470" x2="1090" y2="470" stroke="#d8dee4"/>
+  <text x="110" y="510" font-family="Arial, sans-serif" font-size="15">Nomina_agosto.xlsx</text>
+  <text x="500" y="510" font-family="Arial, sans-serif" font-size="15">RRHH</text>
+  <text x="720" y="510" font-family="Arial, sans-serif" font-size="15">09/08/2026</text>
+  <text x="900" y="510" font-family="Arial, sans-serif" font-size="15" fill="#1f6feb">Ver | Descargar</text>
+  <text x="110" y="585" font-family="Arial, sans-serif" font-size="14" fill="#57606a">Funciones representadas: carga, búsqueda, organización, consulta y descarga de documentos.</text>
+</svg>
