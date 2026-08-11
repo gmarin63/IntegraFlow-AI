@@ -16,7 +16,9 @@ IntegraFlow AI propone una plataforma centralizada para integrar estos procesos 
 
 ## 🏗️ Arquitectura conceptual
 
-![Arquitectura conceptual de IntegraFlow AI](docs/arquitectura/arquitectura-conceptual.svg)
+<p align="center">
+  <img src="./docs/arquitectura/arquitectura-conceptual.svg" alt="Arquitectura conceptual de IntegraFlow AI" width="100%">
+</p>
 
 **Arquitectura conceptual de IntegraFlow AI.** La solución integra usuarios, módulos empresariales, un motor de IA y automatización, y servicios externos. Las integraciones externas representan componentes previstos de la solución y se implementarán progresivamente.
 
@@ -79,6 +81,7 @@ La documentación se organizará progresivamente en `docs/` y estará alineada c
 - **GA1-220501092-AA4-EV01:** Especificación de requisitos funcionales y no funcionales.
 - **GA1-220501092-AA4-EV02:** Documento con especificación de requerimientos bajo IEEE 830 e historias de usuario.
 - **GA1-220501092-AA5-EV01:** Determinación de especificaciones funcionales y metodología/herramienta para gestión de requisitos.
+- **GA1-220501092-AA5-EV02:** Informe de evaluación de los requerimientos, prototipos y casos de prueba.
 
 ## 🗂️ Gestión del proyecto
 
@@ -116,6 +119,8 @@ No se declaran tecnologías específicas como implementadas hasta que hayan sido
 - [x] Aplicación de encuesta y análisis inicial con 19 respuestas.
 - [x] Definición de 8 historias de usuario.
 - [x] Creación de HU-01 a HU-08 como Issues.
+- [x] Arquitectura conceptual documentada.
+- [x] Prototipos y casos de prueba definidos para la validación inicial.
 - [ ] Configuración completa de GitHub Projects.
 - [ ] Consolidación de requisitos funcionales y no funcionales.
 - [ ] Diseño detallado de arquitectura.
