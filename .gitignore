@@ -1,0 +1,18 @@
+# Variables privadas
+.env
+
+# Archivos temporales
+*.log
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node.js
+node_modules/
+
+# Sistema operativo
+Thumbs.db
+.DS_Store
