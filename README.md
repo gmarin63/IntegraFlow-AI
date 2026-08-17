@@ -49,11 +49,9 @@ Las historias de usuario se gestionan como Issues en GitHub:
 - [HU-05 – Automatización de procesos](https://github.com/gmarin63/IntegraFlow-AI/issues/5)
 - [HU-06 – Dashboard de información](https://github.com/gmarin63/IntegraFlow-AI/issues/6)
 - [HU-07 – Generación de reportes](https://github.com/gmarin63/IntegraFlow-AI/issues/7)
-- [HU-08 – Asistencia mediante IA](https://github.com/gmarin63/IntegraFlow-AI/issues/8)
+- [HU-08 – Asistencia mediante Inteligencia Artificial](https://github.com/gmarin63/IntegraFlow-AI/issues/8)
 
 [Ver todas las historias de usuario](docs/requisitos/historias-usuario.md)
-- [HU-07 – Generación de reportes](https://github.com/gmarin63/IntegraFlow-AI/issues/7)
-- [HU-08 – Asistencia mediante Inteligencia Artificial](https://github.com/gmarin63/IntegraFlow-AI/issues/8)
 
 **Esfuerzo estimado:** 44 puntos.
 
@@ -87,13 +85,13 @@ La documentación se organizará progresivamente en `docs/` y estará alineada c
 - **GA1-220501092-AA5-EV01:** Determinación de especificaciones funcionales y metodología/herramienta para gestión de requisitos.
 - **GA1-220501092-AA5-EV02:** Informe de evaluación de los requerimientos, prototipos y casos de prueba.
 
-## � Inicio rápido
+## 🚀 Inicio rápido
 
 - [SETUP.md](SETUP.md) — Guía de instalación y configuración del ambiente.
 - [CONTRIBUTING.md](CONTRIBUTING.md) — Guía para contribuir al proyecto.
 - [CHANGELOG.md](CHANGELOG.md) — Registro de cambios y versiones.
 
-## �🗂️ Gestión del proyecto
+## 🗂️ Gestión del proyecto
 
 La gestión actual utiliza:
 
