@@ -1,6 +1,13 @@
 # 📚 Documentación
 
-Documentación técnica y funcional de IntegraFlow-AI.
+Documentación técnica y funcional de **IntegraFlow AI**.
+
+## Secciones principales
+
+- [Requisitos](requisitos/README.md)
+- [Arquitectura](arquitectura/README.md)
+- [Diagramas](diagramas/README.md)
+- [Evidencias SENA](evidencias-sena/README.md)
 
 ## Contenido previsto
 
@@ -10,3 +17,5 @@ Documentación técnica y funcional de IntegraFlow-AI.
 - Modelo de datos
 - Decisiones técnicas
 - Manuales y guías
+
+La documentación se actualizará progresivamente conforme avance el análisis, diseño, implementación y validación del proyecto.
