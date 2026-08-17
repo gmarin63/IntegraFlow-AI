@@ -1,9 +1,25 @@
-# Arquitectura conceptual de IntegraFlow AI
+# 🏗️ Arquitectura de IntegraFlow AI
 
-La siguiente imagen representa la arquitectura conceptual propuesta para **IntegraFlow AI**, incluyendo usuarios, módulos principales, motor de IA + automatización, flujos, base de datos centralizada e integraciones externas.
+Esta sección centraliza la documentación funcional y técnica de la arquitectura de **IntegraFlow AI**.
 
-![Arquitectura conceptual](arquitectura-conceptual.svg)
+## Objetivo
 
-**Estado:** diseño conceptual.
+Definir progresivamente la arquitectura de la plataforma antes de implementar sus componentes principales, incluyendo módulos, flujos de información, integraciones externas, seguridad y decisiones de diseño.
 
-**Proyecto:** IntegraFlow AI — Plataforma Web de Automatización e Integración Empresarial.
+## Documentos disponibles
+
+- [Arquitectura general](arquitectura-general.md)
+- [Arquitectura conceptual](arquitectura-conceptual.svg)
+- [Arquitectura conceptual v2](arquitectura-conceptual-v2.svg)
+
+La arquitectura conceptual representa usuarios, módulos principales, motor de IA y automatización, base de datos centralizada e integraciones externas.
+
+**Estado:** diseño conceptual en evolución.
+
+## Próximos documentos
+
+- Componentes del sistema
+- Flujo de información
+- Integraciones externas
+- Seguridad
+- Decisiones de arquitectura
