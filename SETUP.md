@@ -1,97 +1,76 @@
-# 🛠️ Instalación y Configuración — IntegraFlow AI
+# 🛠️ Instalación y configuración — IntegraFlow AI
 
-Guía de configuración del ambiente de desarrollo para IntegraFlow AI.
+Esta guía documenta la configuración básica disponible actualmente para trabajar con el repositorio de **IntegraFlow AI**.
 
-## Requisitos previos
+> **Estado actual:** el stack tecnológico definitivo de frontend, backend y base de datos todavía no ha sido seleccionado. Por esta razón, no se incluyen comandos de instalación de frameworks o dependencias que aún no forman parte del proyecto.
 
-- **Git** 2.0 o superior
-- **Node.js** 16.0+ y **npm** 7.0+ (para frontend)
-- **Python** 3.8+ (para backend)
-- **Visual Studio Code** recomendado
+## Requisitos actuales
 
-## Instalación
+- **Git** instalado.
+- Una cuenta de **GitHub** con acceso al repositorio.
+- Un editor de código, preferiblemente **Visual Studio Code** u otro equivalente.
 
-### 1. Clonar el repositorio
+## Clonar el repositorio
 
 ```bash
 git clone https://github.com/gmarin63/IntegraFlow-AI.git
 cd IntegraFlow-AI
 ```
 
-### 2. Configurar variables de entorno
-
-Crear archivo `.env` en la raíz del proyecto:
-
-```env
-# Variables privadas — NO COMPARTIR
-# Configurar según el ambiente de desarrollo
-```
-
-### 3. Frontend
+## Verificar el estado del repositorio
 
 ```bash
-cd frontend
-npm install
-npm start
+git status
+git branch --show-current
+git remote -v
 ```
 
-### 4. Backend
+## Sincronizar cambios
+
+Antes de empezar a trabajar, se recomienda verificar que no existan cambios locales pendientes y luego actualizar la rama correspondiente:
 
 ```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python manage.py runserver
+git pull origin main
 ```
 
-## Estructura del proyecto
+## Estructura actual del proyecto
 
-- **`frontend/`** — Código de la interfaz de usuario
-- **`backend/`** — Código de lógica de negocio y APIs
-- **`docs/`** — Documentación técnica y funcional
-- **`tests/`** — Casos de prueba y artefactos de validación
-- **`assets/`** — Recursos (imágenes, logos, etc.)
-- **`prototipos/`** — Prototipos de interfaz
+- **`frontend/`** — espacio reservado para la futura interfaz de usuario.
+- **`backend/`** — espacio reservado para la futura lógica de negocio y API.
+- **`docs/`** — documentación técnica, funcional y evidencias relacionadas con el proyecto.
+- **`tests/`** — casos de prueba y futuros artefactos de validación automatizada.
+- **`assets/`** — recursos gráficos del proyecto.
+- **`prototipos/`** — prototipos de interfaz desarrollados durante el análisis y validación.
 
-## Desarrollo
+## Variables de entorno
 
-### Crear rama de feature
+El archivo `.gitignore` está configurado para excluir archivos `.env` del repositorio. Las variables de entorno se definirán cuando el stack tecnológico y las integraciones requieran su uso.
 
-```bash
-git checkout -b feature/nombre-funcionalidad
-```
+## Frontend
 
-### Realizar cambios y commit
+**Pendiente de definición técnica.**
 
-```bash
-git add .
-git commit -m "Descripción clara del cambio"
-```
+No se debe ejecutar `npm install`, `npm start` u otros comandos hasta seleccionar y configurar formalmente la tecnología del frontend.
 
-### Crear Pull Request
+## Backend
 
-Ver [CONTRIBUTING.md](CONTRIBUTING.md) para más detalles.
+**Pendiente de definición técnica.**
 
-## Troubleshooting
+No se debe asumir Python, Node.js, Django, Express u otro framework hasta que la decisión técnica quede documentada en el proyecto.
 
-### Port ya en uso
+## Base de datos
 
-```bash
-# Frontend (3000)
-lsof -ti:3000 | xargs kill -9
+**Pendiente de definición técnica.**
 
-# Backend (8000)
-lsof -ti:8000 | xargs kill -9
-```
+El motor y el modelo físico de datos se seleccionarán durante las actividades de diseño correspondientes.
 
-### Limpiar dependencias
+## Próximos pasos
 
-```bash
-npm cache clean --force
-pip cache purge
-```
+1. Seleccionar el stack tecnológico.
+2. Documentar las decisiones de arquitectura.
+3. Configurar el ambiente de desarrollo.
+4. Actualizar este archivo con los comandos reales de instalación y ejecución.
 
-## Contacto
+---
 
-Para dudas o problemas, crear un Issue en GitHub.
+Este documento debe mantenerse alineado con el estado real del repositorio.
