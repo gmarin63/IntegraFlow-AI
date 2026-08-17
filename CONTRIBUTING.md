@@ -1,124 +1,93 @@
-# 🤝 Guía de Contribución — IntegraFlow AI
+# 🤝 Guía de contribución — IntegraFlow AI
 
-Gracias por tu interés en contribuir a IntegraFlow AI. Esta guía te ayudará a entender cómo participar en el proyecto.
+Esta guía describe el flujo general para contribuir a **IntegraFlow AI** sin asumir tecnologías que todavía no han sido seleccionadas.
 
-## Código de conducta
+## Principios de trabajo
 
-- Sé respetuoso y constructivo.
-- Mantén una comunicación clara y profesional.
-- Respeta los derechos de autor y la propiedad intelectual.
+- Mantener una comunicación respetuosa, clara y profesional.
+- Evitar cambios no relacionados con el objetivo de cada tarea.
+- Mantener la documentación alineada con el estado real del proyecto.
 
-## Cómo empezar
-
-### 1. Fork el repositorio
-
-Haz un fork del repositorio en GitHub.
-
-### 2. Clonar tu fork
+## Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/IntegraFlow-AI.git
+git clone https://github.com/gmarin63/IntegraFlow-AI.git
 cd IntegraFlow-AI
 ```
 
-### 3. Crear una rama
+## Crear una rama
 
 ```bash
-git checkout -b feature/descripcion-corta
+git checkout -b tipo/descripcion-corta
 ```
 
-Nomenclatura recomendada:
+Nombres recomendados:
+
 - `feature/nueva-funcionalidad`
-- `bugfix/descripcion-del-bug`
+- `fix/correccion`
 - `docs/mejora-documentacion`
 - `test/nuevos-casos-prueba`
+- `refactor/reorganizacion`
 
-## Proceso de contribución
+## Antes de guardar cambios
 
-### 1. Realizar cambios
+Revisar el estado y las diferencias:
 
-- Sigue los estándares de código del proyecto.
-- Escribe código limpio, documentado y testeable.
-- Actualiza la documentación si es necesario.
+```bash
+git status
+git diff
+```
 
-### 2. Commit y Push
+## Crear un commit
 
 ```bash
 git add .
-git commit -m "Descripción clara: qué cambió y por qué"
-git push origin feature/descripcion-corta
+git commit -m "tipo(alcance): descripción breve"
 ```
 
-Formato recomendado de commit:
+Tipos recomendados:
 
+- `feat:` nueva funcionalidad.
+- `fix:` corrección.
+- `docs:` documentación.
+- `test:` pruebas.
+- `refactor:` reorganización.
+- `chore:` mantenimiento.
+
+## Enviar una rama
+
+```bash
+git push origin nombre-de-la-rama
 ```
-tipo(alcance): descripción breve
 
-Descripción más detallada si es necesaria.
+Cuando corresponda, se puede abrir un Pull Request hacia `main`, describiendo los cambios realizados y su relación con el trabajo del proyecto.
 
-Relacionado con: #issue-number
-```
-
-Tipos:
-- `feat:` Nueva funcionalidad
-- `fix:` Corrección de bug
-- `docs:` Cambios en documentación
-- `test:` Nuevos tests
-- `refactor:` Reorganización de código
-
-### 3. Crear Pull Request
-
-1. Ve a GitHub y abre un Pull Request desde tu rama.
-2. Describe claramente qué cambios incluye.
-3. Referencia el issue relacionado: `Cierra #123`
-4. Espera revisión de los mantenedores.
-
-### 4. Revisión y merge
-
-Los mantenedores revisarán tu PR. Pueden solicitar cambios. Una vez aprobado, se hará merge a `main`.
-
-## Estándares
+## Estándares actuales
 
 ### Código
 
-- Código legible y bien documentado.
-- Seguir convenciones del lenguaje (PEP8 para Python, prettier para JavaScript).
-- Evitar código duplicado.
+Los estándares específicos de formato, herramientas de análisis y pruebas se definirán cuando el proyecto seleccione formalmente su stack tecnológico.
+
+Mientras tanto:
+
+- Usar nombres descriptivos.
+- Evitar duplicación innecesaria.
+- Mantener funciones y componentes con responsabilidades claras.
+- Documentar las decisiones técnicas relevantes.
 
 ### Documentación
 
-- Actualizar README.md si cambias funcionalidades.
-- Agregar comentarios en código complejo.
-- Incluir ejemplos de uso cuando sea relevante.
+- Mantener los archivos Markdown actualizados.
+- Utilizar la estructura existente de `docs/`.
+- Guardar las evidencias SENA relacionadas con el proyecto en `docs/evidencias-sena/`.
+- Evitar crear carpetas duplicadas para el mismo propósito.
 
-### Tests
+### Pruebas
 
-- Agregar tests para nuevas funcionalidades.
-- Asegurar que todos los tests pasen: `npm test` o `pytest`.
-- Mantener cobertura de tests > 80%.
+Actualmente existen casos de prueba documentales en `tests/casos-prueba/`.
 
-## Reportar bugs
+Las herramientas de pruebas automatizadas, comandos de ejecución y objetivos de cobertura se definirán cuando exista una implementación y un stack tecnológico seleccionado.
 
-1. Verifica que el bug no haya sido reportado.
-2. Abre un Issue con:
-   - Título descriptivo.
-   - Descripción del problema.
-   - Pasos para reproducir.
-   - Resultado esperado vs resultado actual.
-   - Entorno (SO, versiones).
+## Estado del documento
 
-## Sugerencias de mejora
-
-Abre un Issue con la etiqueta `enhancement` describiendo tu idea.
-
-## Preguntas
-
-Usa las Discussions en GitHub o crea un Issue con la etiqueta `question`.
-
-## Licencia
-
-Al contribuir, aceptas que tu código se licencie bajo la misma licencia del proyecto.
-
----
-
-¡Gracias por tu contribución! 🎉
+Esta guía evolucionará junto con IntegraFlow AI. Cuando se seleccione el stack tecnológico, se agregarán los estándares reales de desarrollo, ejecución y pruebas.
